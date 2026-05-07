@@ -47,3 +47,15 @@ function App() {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <App />
 );
+<div className="card">
+  <img
+    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    alt=""
+  />
+
+  <h2>iPhone 13</h2>
+
+  <p>15.000.000đ</p>
+
+  <button>Mua ngay</button>
+</div>
