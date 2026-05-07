@@ -94,11 +94,49 @@ function App() {
                 ✔ Còn hàng
               </p>
 
-              <button>
-                Thanh toán bằng PI
-              </button>
+             <button
+  className="buy-btn"
+  onClick={() => {
+    alert(
+`🪙 THANH TOÁN PI NETWORK
 
-            </div>
+📱 Sản phẩm: ${sp.ten}
+💰 Giá: ${sp.gia}đ
+🪙 Số PI cần gửi: ≈ ${pi} PI
+
+📬 ĐỊA CHỈ VÍ PI:
+GBHGRNUU7645UJJNOKUIUSBEJUDNU4IW4YN5ZA72M4WSPP62MIENCAVL
+
+📌 Nội dung chuyển:
+MUA-${sp.ten}
+
+✅ Sau khi thanh toán:
+• Đơn sẽ được xác nhận tự động
+• Shop đóng gói trong 24h
+• Gửi bưu điện toàn quốc
+
+☎ Hỗ trợ: 09xxxxxxxx`
+    );
+  }}
+>
+  Thanh toán bằng PI
+</button> <button
+  className="buy-btn"
+  onClick={() => {
+    alert(
+      `✅ Đã nhận thanh toán Pi thành công!
+
+📦 Đơn hàng: ${sp.ten}
+💰 Giá: ${sp.gia}đ
+🪙 Số PI: ≈ ${pi} PI
+
+🚚 Đơn hàng sẽ được đóng gói và gửi bưu điện trong 24h.
+📞 Nhân viên sẽ liên hệ xác nhận địa chỉ giao hàng.`
+    );
+  }}
+>
+  Thanh toán bằng PI
+</button>
           );
 
         })}
