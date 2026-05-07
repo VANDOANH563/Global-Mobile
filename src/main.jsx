@@ -53,7 +53,17 @@ function App() {
       <p className="pi-price">
         1 PI = 50.000 VNĐ
       </p>
+<div className="hero">
+  <h2>iPhone Chính Hãng Quốc Tế</h2>
 
+  <p>
+    Trả góp • Thanh toán PI • Bảo hành toàn cầu
+  </p>
+
+  <button className="hero-btn">
+    Mua ngay
+  </button>
+</div>
       <input
         className="search"
         placeholder="Tìm kiếm điện thoại..."
