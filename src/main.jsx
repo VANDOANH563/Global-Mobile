@@ -1,5 +1,6 @@
 export default function App() {
-  const products = [
+  const products =
+    [
     {
       name: "iPhone 15 Pro Max",
       price: "28.990.000đ",
