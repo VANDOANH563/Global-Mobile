@@ -62,50 +62,32 @@ function App() {
 
   <button className="hero-btn">
     Mua ngay
-  </button>
-</div>
-      <input
-        className="search"
-        placeholder="Tìm kiếm điện thoại..."
-      />
-
-      <div className="products">
-
-        {products.map((sp, index) => {
-
-          const pi = (sp.gia / 50000).toFixed(2);
-
-          return (
-            <div className="card" key={index}>
-
-              <img src={sp.hinh} alt="" />
-
-              <h2>{sp.ten}</h2>
-
-              <p className="gia">
-                {sp.gia.toLocaleString()}đ
-              </p>
-
-              <p className="pi">
-                ≈ {pi} PI
-              </p>
-
-              <p className="stock">
-                ✔ Còn hàng
-              </p>
 <button
   className="buy-btn"
- onClick={() => {
- alert(`🪙 THANH TOÁN PI NETWORK
+  onClick={() => {
+    alert(
+`🔥 THANH TOÁN PI NETWORK 🔥
 
 📱 Sản phẩm: ${sp.ten}
-🪙 Số PI: ${pi} PI
 
-📬 Ví PI:
+💰 Giá: ${sp.gia.toLocaleString()}đ
+
+🪙 Số PI cần gửi: ${pi} PI
+
+🏦 ĐỊA CHỈ VÍ PI:
+
 GBHGRNUU7645UJJNOKUIUSBEJUDN4IW4YN5ZA72MHWSPP62MIENCAVL
 
-📦 Shop sẽ gửi hàng sau khi xác nhận.`);
-}}
+📌 Nội dung chuyển:
+MUA-${sp.ten}
+
+✅ Sau khi chuyển PI:
+• Shop xác nhận tự động
+• Đóng gói trong 24h
+• Gửi bưu điện toàn quốc
+
+☎ Hỗ trợ: 09xxxxxxxx`
+    );
   }}
 >
   Thanh toán bằng PI
