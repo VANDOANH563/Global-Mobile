@@ -74,19 +74,14 @@ function App() {
 
 🪙 Số PI cần gửi: ${pi} PI
 
-🏦 ĐỊA CHỈ VÍ PI:
+🏦 Ví PI:
 
 GBHGRNUU7645UJJNOKUIUSBEJUDN4IW4YN5ZA72MHWSPP62MIENCAVL
 
-📌 Nội dung chuyển:
-MUA-${sp.ten}
-
-✅ Sau khi chuyển PI:
-• Shop xác nhận tự động
+📦 Sau khi thanh toán:
+• Shop xác nhận đơn tự động
 • Đóng gói trong 24h
-• Gửi bưu điện toàn quốc
-
-☎ Hỗ trợ: 09xxxxxxxx`
+• Gửi bưu điện toàn quốc`
     );
   }}
 >
