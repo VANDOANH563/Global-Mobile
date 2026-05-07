@@ -177,3 +177,52 @@ button:hover{
   }
 
 }
+.card{
+  position:relative;
+}
+
+.card::before{
+  content:"HOT";
+  position:absolute;
+  top:15px;
+  right:15px;
+  background:red;
+  color:white;
+  padding:6px 12px;
+  border-radius:10px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.card img{
+  transition:0.5s;
+}
+
+.card:hover img{
+  transform:scale(1.05);
+}
+
+button{
+  position:relative;
+  overflow:hidden;
+}
+
+button::after{
+  content:"";
+  position:absolute;
+  width:30px;
+  height:200%;
+  background:rgba(255,255,255,0.4);
+  top:-50%;
+  left:-100px;
+  transform:rotate(25deg);
+  transition:0.7s;
+}
+
+button:hover::after{
+  left:120%;
+}
+
+html{
+  scroll-behavior:smooth;
+}
