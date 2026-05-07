@@ -59,32 +59,36 @@ function App() {
   <p>
     Trả góp • Thanh toán PI • Bảo hành toàn cầu
   </p>
+  <button
+  className="buy-btn"
+  onClick={() => {
+    alert("ĐÃ NHẤN NÚT THANH TOÁN PI");
+  }}
+>
+  Thanh toán bằng PI
+</button>
 <button
   className="buy-btn"
   onClick={() => {
-    alert(
-`🔥 THANH TOÁN PI NETWORK 🔥
+    alert(`🔥 THANH TOÁN PI NETWORK 🔥
 
 📱 Sản phẩm: ${sp.ten}
 
 💰 Giá: ${sp.gia.toLocaleString()}đ
 
-🪙 Số PI cần gửi: ${pi} PI
+◽ Số PI cần gửi: ${pi} PI
 
 🏦 ĐỊA CHỈ VÍ PI:
-GBHGRNUU7645UJJNOKUIUSBEJUDN4IW4YN5ZA72MHWSPP62MIENCAVL
+GBHGRNUU7645UJJNOKUIUSBEJUDN4IW4YNSZA72MHWSPP62MIENCAVL
 
 📦 Sau khi thanh toán:
 • Shop xác nhận tự động
 • Đóng gói trong 24h
-• Gửi bưu điện toàn quốc`
-    );
+• Gửi bưu điện toàn quốc`);
   }}
 >
   Thanh toán bằng PI
 </button>
-         );
-
         })}
 
       </div>
