@@ -59,9 +59,6 @@ function App() {
   <p>
     Trả góp • Thanh toán PI • Bảo hành toàn cầu
   </p>
-
-  <button className="hero-btn">
-    Mua ngay
 <button
   className="buy-btn"
   onClick={() => {
@@ -74,12 +71,11 @@ function App() {
 
 🪙 Số PI cần gửi: ${pi} PI
 
-🏦 Ví PI:
-
+🏦 ĐỊA CHỈ VÍ PI:
 GBHGRNUU7645UJJNOKUIUSBEJUDN4IW4YN5ZA72MHWSPP62MIENCAVL
 
 📦 Sau khi thanh toán:
-• Shop xác nhận đơn tự động
+• Shop xác nhận tự động
 • Đóng gói trong 24h
 • Gửi bưu điện toàn quốc`
     );
